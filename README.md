@@ -28,9 +28,10 @@ Once you have your php built-in server working, you can enable linting (syntax e
 
 ```  
   // Points to the PHP executable.
-  "php.validate.executablePath": null,
+  "php.validate.executablePath": "<<path to your php.exe file>>",
 
   // Whether the linter is run on save or on type.
   "php.validate.run": "onType"
 ```
+My php.exe path is "H:/web2test/php-7/php.exe" (note: forward slashes are important here).  
 Now you should see syntax errors underlined with red zigzags!
