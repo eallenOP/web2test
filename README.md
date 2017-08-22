@@ -15,8 +15,8 @@ Now you can put all your files to be tested straight into this web2test folder a
 In order to connect to a maria database, your PHP install needs to know where the driver is (needs the whole path(?)).
 This is different for each person, so everyone will need to set it correctly in php.ini.
 
-1. Find the line that states the path to the extension folder (search for extension_dir)	(Line 738 in my php.ini file)
-2. Change the path to match where your extension folder is (inside your php-7 folder, so in my case extension_dir = "H:\web2test\php-7\ext" because the extension directory is called ext)
+1. Find the line that states the path to the extension folder (search for `extension_dir`)	(Line 738 in my php.ini file)
+2. Change the path to match where your extension folder is (inside your php-7 folder, so in my case `extension_dir = "H:\web2test\php-7\ext"` because the extension directory is called `ext`)
 
 # Turning on linting in VS Code
 
